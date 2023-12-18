@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Day02_2 {
     public static void main(String[] args) throws FileNotFoundException {
 
-        String file = "/Users/aline/Downloads/input_day02.txt";
+        String file = "inputs/input_day02.txt";
         Scanner scanner = new Scanner(new File(file));
         scanner.useDelimiter("\n");
 
@@ -47,7 +47,7 @@ public class Day02_2 {
 
         }
 
-        System.out.println("Sum of sets powers:" + setPowerSum);
+        System.out.println("Sum of sets powers: " + setPowerSum);
 
     }
 }

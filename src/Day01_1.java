@@ -7,7 +7,7 @@ import static java.sql.Types.NULL;
 public class Day01_1 {
     public static void main(String[] args) throws FileNotFoundException {
 
-        String file = "/Users/aline/Downloads/input_day01.txt";
+        String file = "inputs/input_day01.txt";
         Scanner scanner = new Scanner(new File(file));
         scanner.useDelimiter("\n");
 

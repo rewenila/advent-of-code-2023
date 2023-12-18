@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Day02_1 {
     public static void main(String[] args) throws FileNotFoundException {
 
-        String file = "/Users/aline/Downloads/input_day02.txt";
+        String file = "inputs/input_day02.txt";
         Scanner scanner = new Scanner(new File(file));
         scanner.useDelimiter("\n");
 
