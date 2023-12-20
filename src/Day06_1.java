@@ -7,10 +7,6 @@ public class Day06_1 {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        //String file = "/Users/aline/Downloads/input_day06.txt";
-        //Scanner scanner = new Scanner(new File(file));
-        //scanner.useDelimiter("\n");
-
         int[] time = {53, 91, 67, 68};
         int[] distance = {250, 1330, 1081, 1025};
 
